@@ -13,9 +13,7 @@
 		52D65FB2277B888500B3310B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D65FB0277B888500B3310B /* Main.storyboard */; };
 		52D65FB4277B888700B3310B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D65FB3277B888700B3310B /* Assets.xcassets */; };
 		52D65FB7277B888700B3310B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D65FB5277B888700B3310B /* LaunchScreen.storyboard */; };
-		52D65FC2277B888800B3310B /* North_East_South_WestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FC1277B888800B3310B /* North_East_South_WestTests.swift */; };
-		52D65FCC277B888800B3310B /* North_East_South_WestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FCB277B888800B3310B /* North_East_South_WestUITests.swift */; };
-		52D65FCE277B888800B3310B /* North_East_South_WestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FCD277B888800B3310B /* North_East_South_WestUITestsLaunchTests.swift */; };
+		52D65FDB277B8FA000B3310B /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D65FDA277B8FA000B3310B /* DirectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +43,8 @@
 		52D65FB6277B888700B3310B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D65FB8277B888700B3310B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52D65FBD277B888800B3310B /* North East South WestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "North East South WestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D65FC1277B888800B3310B /* North_East_South_WestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_South_WestTests.swift; sourceTree = "<group>"; };
 		52D65FC7277B888800B3310B /* North East South WestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "North East South WestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D65FCB277B888800B3310B /* North_East_South_WestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_South_WestUITests.swift; sourceTree = "<group>"; };
-		52D65FCD277B888800B3310B /* North_East_South_WestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_South_WestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52D65FDA277B8FA000B3310B /* DirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				52D65FA9277B888500B3310B /* North East South West */,
-				52D65FC0277B888800B3310B /* North East South WestTests */,
-				52D65FCA277B888800B3310B /* North East South WestUITests */,
 				52D65FA8277B888500B3310B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,25 +100,9 @@
 				52D65FB3277B888700B3310B /* Assets.xcassets */,
 				52D65FB5277B888700B3310B /* LaunchScreen.storyboard */,
 				52D65FB8277B888700B3310B /* Info.plist */,
+				52D65FDA277B8FA000B3310B /* DirectionViewController.swift */,
 			);
 			path = "North East South West";
-			sourceTree = "<group>";
-		};
-		52D65FC0277B888800B3310B /* North East South WestTests */ = {
-			isa = PBXGroup;
-			children = (
-				52D65FC1277B888800B3310B /* North_East_South_WestTests.swift */,
-			);
-			path = "North East South WestTests";
-			sourceTree = "<group>";
-		};
-		52D65FCA277B888800B3310B /* North East South WestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52D65FCB277B888800B3310B /* North_East_South_WestUITests.swift */,
-				52D65FCD277B888800B3310B /* North_East_South_WestUITestsLaunchTests.swift */,
-			);
-			path = "North East South WestUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D65FDB277B8FA000B3310B /* DirectionViewController.swift in Sources */,
 				52D65FAF277B888500B3310B /* ViewController.swift in Sources */,
 				52D65FAB277B888500B3310B /* AppDelegate.swift in Sources */,
 				52D65FAD277B888500B3310B /* SceneDelegate.swift in Sources */,
@@ -268,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D65FC2277B888800B3310B /* North_East_South_WestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D65FCE277B888800B3310B /* North_East_South_WestUITestsLaunchTests.swift in Sources */,
-				52D65FCC277B888800B3310B /* North_East_South_WestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
